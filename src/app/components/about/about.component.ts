@@ -10,26 +10,26 @@ import { CommonModule } from '@angular/common';
 })
 export class AboutComponent {
   skills = {
-    frontend: [
-      { name: 'Angular', level: 95 },
-      { name: 'React', level: 90 },
-      { name: 'Vue.js', level: 85 },
-      { name: 'TypeScript', level: 95 },
-      { name: 'HTML/CSS/SCSS', level: 98 }
+    ux: [
+      { name: 'User Research', level: 95 },
+      { name: 'Wireframing', level: 98 },
+      { name: 'Prototyping', level: 96 },
+      { name: 'User Testing', level: 90 },
+      { name: 'Information Architecture', level: 92 }
     ],
-    backend: [
-      { name: 'Node.js', level: 92 },
-      { name: 'Python', level: 88 },
-      { name: 'Java', level: 85 },
-      { name: 'PostgreSQL', level: 90 },
-      { name: 'MongoDB', level: 87 }
+    ui: [
+      { name: 'Visual Design', level: 97 },
+      { name: 'Design Systems', level: 94 },
+      { name: 'Typography', level: 96 },
+      { name: 'Color Theory', level: 95 },
+      { name: 'Interaction Design', level: 93 }
     ],
     tools: [
-      { name: 'Git', level: 95 },
-      { name: 'Docker', level: 88 },
-      { name: 'AWS', level: 85 },
-      { name: 'CI/CD', level: 90 },
-      { name: 'Agile/Scrum', level: 92 }
+      { name: 'Figma', level: 98 },
+      { name: 'Adobe XD', level: 92 },
+      { name: 'Sketch', level: 90 },
+      { name: 'HTML/CSS', level: 95 },
+      { name: 'React/Angular', level: 88 }
     ]
   };
 }

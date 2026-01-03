@@ -2,7 +2,6 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeroComponent } from './components/hero/hero.component';
 import { AboutComponent } from './components/about/about.component';
-import { ServicesComponent } from './components/services/services.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -13,7 +12,6 @@ import { FooterComponent } from './components/footer/footer.component';
     RouterOutlet,
     HeroComponent,
     AboutComponent,
-    ServicesComponent,
     ProjectsComponent,
     ContactComponent,
     FooterComponent

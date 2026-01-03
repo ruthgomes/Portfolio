@@ -1,0 +1,79 @@
+<section id="about" class="about">
+  <div class="container">
+    <div class="about-content">
+      <div class="about-text">
+        <h2 class="section-title">Sobre Mim</h2>
+        <p class="highlight">
+          Desenvolvedora Full Stack apaixonada por criar soluções tecnológicas que fazem a diferença.
+        </p>
+        <p>
+          Com mais de 5 anos de experiência no mercado, especializei-me em ajudar empresas 
+          a transformar suas ideias em realidade através de código limpo, escalável e eficiente.
+        </p>
+        <p>
+          Minha abordagem combina expertise técnica profunda com uma visão estratégica de negócios, 
+          garantindo que cada projeto não apenas funcione perfeitamente, mas também agregue valor real 
+          aos meus clientes.
+        </p>
+        
+        <div class="expertise">
+          <h3>Por que escolher minha consultoria?</h3>
+          <ul>
+            <li>✓ Código de qualidade com as melhores práticas do mercado</li>
+            <li>✓ Comunicação clara e transparente durante todo o projeto</li>
+            <li>✓ Prazos respeitados e entregas no prazo</li>
+            <li>✓ Suporte contínuo após a entrega do projeto</li>
+            <li>✓ Foco em performance e escalabilidade</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="skills-section">
+        <div class="skills-category">
+          <h3>Frontend</h3>
+          <div class="skills-list">
+            <div class="skill" *ngFor="let skill of skills.frontend">
+              <div class="skill-info">
+                <span class="skill-name">{{ skill.name }}</span>
+                <span class="skill-percentage">{{ skill.level }}%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" [style.width.%]="skill.level"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skills-category">
+          <h3>Backend</h3>
+          <div class="skills-list">
+            <div class="skill" *ngFor="let skill of skills.backend">
+              <div class="skill-info">
+                <span class="skill-name">{{ skill.name }}</span>
+                <span class="skill-percentage">{{ skill.level }}%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" [style.width.%]="skill.level"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skills-category">
+          <h3>Ferramentas & DevOps</h3>
+          <div class="skills-list">
+            <div class="skill" *ngFor="let skill of skills.tools">
+              <div class="skill-info">
+                <span class="skill-name">{{ skill.name }}</span>
+                <span class="skill-percentage">{{ skill.level }}%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" [style.width.%]="skill.level"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
